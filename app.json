@@ -4,6 +4,7 @@
     "slug": "practice",
     "version": "1.0.0",
     "orientation": "portrait",
+    "newArchEnabled": true,
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
