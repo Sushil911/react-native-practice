@@ -4,6 +4,7 @@ import Product from '../components/Product'
 import Conditionalstatement from '../components/Conditionalstatement'
 import Withstate from '../components/State/Withstate'
 import UpdateArray from '../components/State/UpdateArray'
+import UpdateObject from '../components/State/UpdateObject'
 // import { Link } from 'expo-router'
 // import CarComponent from '../components/CarComponent'
 // import ListData from '../components/ListData'
@@ -55,6 +56,7 @@ const Index = () => {
       {/* <Conditionalstatement /> */}
       <Withstate />
       <UpdateArray />
+      <UpdateObject />
     </View>
   )
 }
