@@ -5,6 +5,8 @@ import Conditionalstatement from '../components/Conditionalstatement'
 import Withstate from '../components/State/Withstate'
 import UpdateArray from '../components/State/UpdateArray'
 import UpdateObject from '../components/State/UpdateObject'
+import ComponentOne from '../components/SharingState/ComponentOne'
+import SharingState from '../components/SharingState/SharingState'
 // import { Link } from 'expo-router'
 // import CarComponent from '../components/CarComponent'
 // import ListData from '../components/ListData'
@@ -54,9 +56,10 @@ const Index = () => {
       <ArrayOfObjects /> */}
       {/* <FlatList data={products} renderItem={({item}) => <Product name={item.productName} price={item.productPrice} description={item.productDescription} image={item.productImage} isFeatured = {item.isFeatured} />} /> */}
       {/* <Conditionalstatement /> */}
-      <Withstate />
-      <UpdateArray />
-      <UpdateObject />
+      {/* <Withstate /> */}
+      {/* <UpdateArray /> */}
+      {/* <UpdateObject /> */}
+      <SharingState />
     </View>
   )
 }
