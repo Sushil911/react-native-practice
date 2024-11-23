@@ -7,6 +7,7 @@ import UpdateArray from '../components/State/UpdateArray'
 import UpdateObject from '../components/State/UpdateObject'
 import ComponentOne from '../components/SharingState/ComponentOne'
 import SharingState from '../components/SharingState/SharingState'
+import Toggle from '../components/Toggle'
 // import { Link } from 'expo-router'
 // import CarComponent from '../components/CarComponent'
 // import ListData from '../components/ListData'
@@ -59,7 +60,8 @@ const Index = () => {
       {/* <Withstate /> */}
       {/* <UpdateArray /> */}
       {/* <UpdateObject /> */}
-      <SharingState />
+      {/* <SharingState /> */}
+      <Toggle />
     </View>
   )
 }
